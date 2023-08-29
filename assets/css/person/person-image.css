@@ -1,0 +1,26 @@
+.person__image{
+    
+    background-position: center;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.person__image-anna{
+    background-image: url('../../img/people/solenn.jpg');
+}
+.person__image-karen{
+    background-image: url('../../img/people/erwan.jpg');
+}
+.person__image-julia{
+    background-image: url('../../img/people/nicobolzico.jpg');
+
+}
+
+.person__image:hover{
+    opacity: 1;
+    transform:scale(1.2);
+}
