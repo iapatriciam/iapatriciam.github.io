@@ -1,0 +1,15 @@
+.aboutus__title{
+    color: #E37C07;
+    font-family: Pacifico, cursive;
+   
+}
+@media screen and (min-width: 0){
+    .aboutus__title{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .aboutus__title{
+        font-size: 2rem;
+    }
+}
